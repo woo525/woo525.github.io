@@ -133,3 +133,70 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.paper-card {
+  background-color: #ecdfbc;
+  padding: 22px 26px;
+  border-radius: 0px;
+  margin-bottom: 6px;
+}
+
+.paper-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.paper-title a {
+  color: #27496b;
+  text-decoration: none;
+}
+
+.paper-title a:hover {
+  text-decoration: underline;
+}
+
+.paper-authors {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.paper-venue {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.paper-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  background-color: #3a3a3a;
+  color: #ffffff !important;
+  text-decoration: none !important;
+
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.paper-btn:hover {
+  background-color: #2b2b2b;
+}
+
+.icon {
+  font-size: 15px;
+  line-height: 1;
+}
